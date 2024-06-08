@@ -1,0 +1,92 @@
+/*CSS del body*/
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/*CSS de los encabezados*/
+.encabezado{
+    background-color: #333;
+    color: white;
+}
+
+.faq a{
+    text-decoration: none;
+    color: white;
+}
+
+.encabezado .logo img {
+    max-height: 50px;
+}
+
+.faq img, .inicio-sesion img, .menu img, .referencias img {
+    height: 30px;
+}
+
+.inicio-sesion a {
+    color: white;
+    text-decoration: none;
+}
+
+.icono-menu {
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    right: 0;
+}
+
+.fondosNegros{
+    background-color: #333;
+}
+
+/*Cambia a blanco ciertos textos del menu de navegacion y el texto del boton de enviar del formulario*/
+.textosBlancos{
+    color: white;
+}
+
+/*CSS del main del html 1*/
+.principal{
+    background-image: url(home-HF_GA-1920x1080-CYBERSECU.gif);
+    background-size: cover;
+}
+
+.bienvenida {
+    background-color: #f4f4f4;
+}
+
+.servicios, .miembro-equipo {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.Titulos{
+    color: white;
+}
+
+/*CSS de los footer*/
+.pie {
+    background-color: #333;
+    color: white;
+}
+
+.pie a{
+    text-decoration: none;
+    color: white;
+}
+
+/*CSS de los acordeones del FAQ (html_4)*/
+.faq-header {
+    background-color: #333;
+    color: white;
+}
+
+.faq-body {
+    background-color: #f7f7f7;
+}
+
+.botonFaq{
+    color: white;
+    text-decoration: none;
+}

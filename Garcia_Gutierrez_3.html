@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="author" content="Joaquín García Gutiérrez">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+      integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+      crossorigin="anonymous">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="Garcia_Gutierrez.css">
+    <title>Proyecto final de curso: Bootstrap</title>
+</head>
+<body>
+
+    <!-- Contenedor de la pagina de contenido multimedia -->
+    <div class="container-fluid">
+        
+        <!-- Menu de navegacion -->
+        <header class="encabezado row justify-content-end align-items-center sticky-top py-3">
+
+            <!-- Logo -->
+            <div class="logo col-6 col-lg-8">
+                <a href="Garcia_Gutierrez_1.html"><img src="Hack4u_FondoBlanco-795x167.png" alt="Logo de HACK4U" class="img-fluid"></a>
+            </div>
+
+            <!-- faq -->
+            <div class="faq col-2 col-lg-1 d-flex align-items-center">
+                <img src="4367039.png" class="img-fluid mr-md-2">
+                <p class="mb-0"><a href="Garcia_Gutierrez_4.html">FAQ</a></p>
+            </div>
+
+            <!-- Pagina de registro -->
+            <div class="inicio-sesion d-flex col-lg-1 col-2">
+                <a href="Garcia_Gutierrez_2.html" class="textosBlancos d-flex align-items-center">
+                    <img src="icone-utilisateur-rouge.png" class="img-fluid mr-md-2">Login
+                </a>
+            </div>
+
+            <!-- Menu desplegable -->
+            <div class="menu col-2 col-lg-1 d-flex dropdown">
+                <img src="symbole-base-donnees-rouge.png" class="icono-menu dropdown-toggle" data-toggle="dropdown">
+                <ul class="dropdown-menu dropdown-menu-right fondosNegros">
+                    <li><a class="dropdown-item fondosNegros textosBlancos" href="Garcia_Gutierrez_1.html">Inicio</a></li>
+                    <li><a class="dropdown-item fondosNegros textosBlancos" href="Garcia_Gutierrez_2.html">Login</a></li>
+                    <li><a class="dropdown-item fondosNegros textosBlancos" href="Garcia_Gutierrez_3.html">Contenido</a></li>
+                </ul>
+            </div>
+        </header>
+
+        <!-- Contenido del main -->
+        <main class="row py-4 my-2 justify-content-center">
+
+            <!-- Div con los videos incrustados -->
+            <div class="col-12">
+                <div class="row">
+
+                    <!-- Div con el video incurstado nº 1 con iframe desde youtube con maquetacion embed-responsive -->
+                    <div class="col-lg-6 col-12">
+                        <h2 class="text-center">¿Por donde se empieza?</h2>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item rounded" src="https://www.youtube.com/embed/mPCn_GVbG0o" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                    <!-- Div con el video incurstado nº 2 con video local con maquetacion embed-responsive -->
+                    <div class="col-lg-6 col-12">
+                        <h2 class="text-center">¿Que hay nuevo en el curso?</h2>
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <video class="video rounded" src="Mi CURSO de PYTHON Ofensivo.mp4" poster="Captura de pantalla 2024-05-26 142011.png" controls></video>
+                        </div>
+                        <a href="https://hack4u.io/cursos/python-ofensivo/" class="btn btn-primary btn-lg mt-1">Pulse aquí para ver el curso completo</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Div con la web incrustada -->
+            <div class="col-12">
+                <div class="row justify-content-center my-5">
+                    <div class="col-8">
+                        <h2 class="text-center">Aprende por tu cuenta.</h2>
+
+                        <!-- Web incrustada con iframe con maquetacion embed-responsive -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item rounded" src="https://www.hackthebox.com/"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+         <!-- Pie de pagina -->
+         <footer class="pie row justify-content-center py-3">
+                
+            <!-- Aviso de Copyright -->
+            <p class="col-lg-3">&copy; 2024 Hack4U.</p>
+
+            <!-- Enlaces a las diferentes paginas webs de hack4u de temas legales -->
+            <p class="col-lg-6"><a href="https://hack4u.io/aviso-legal/">Aviso Legal</a> | <a href="https://hack4u.io/politica-de-cookies/">Política de Cookies</a> | <a href="https://hack4u.io/declaracion-de-privacidad/">Declaración de Privacidad</a> | <a href="https://hack4u.io/terminos-y-condiciones/">Términos y Condiciones</a></p>
+            
+            <!-- Redes sociales -->
+            <div class="col-lg-2 referencias">
+                <a href="https://www.youtube.com/s4vitar"><img class="img-fluid" src="Youtube_logo.png"></a>
+                <a href="https://www.instagram.com/s4vitarx/"><img class="img-fluid" src="5968776.png"></a>
+                <a href="https://twitter.com/hack4uacademy/"><img class="img-fluid" src="pngtree-twitter-social-media-round-icon-png-image_6315985.png"></a>
+                <a href="https://twitch.tv/s4vitaar"><img class="img-fluid" src="Twitch-PNG-Photos.png"></a>
+                <a href="https://discord.gg/hack4u"><img class="img-fluid" src="discord_macos_bigsur_icon_190238.png"></a>
+            </div>
+    </footer>
+       </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+    integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+    integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+    </body>
+</html>
